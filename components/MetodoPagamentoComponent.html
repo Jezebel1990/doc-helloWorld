@@ -1,0 +1,1185 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>hello-world documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">hello-world documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>MetodoPagamentoComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/metodo-pagamento/metodo-pagamento.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-metodo-pagamento</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./metodo-pagamento.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./metodo-pagamento.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#cep">cep</a>
+                            </li>
+                            <li>
+                                <a href="#cidade">cidade</a>
+                            </li>
+                            <li>
+                                <a href="#codigoSegurancaCartao">codigoSegurancaCartao</a>
+                            </li>
+                            <li>
+                                <a href="#cpf">cpf</a>
+                            </li>
+                            <li>
+                                <a href="#endereco">endereco</a>
+                            </li>
+                            <li>
+                                <a href="#nomeCartao">nomeCartao</a>
+                            </li>
+                            <li>
+                                <a href="#numeroCartao">numeroCartao</a>
+                            </li>
+                            <li>
+                                <a href="#valorTotal">valorTotal</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#filtroCEP">filtroCEP</a>
+                            </li>
+                            <li>
+                                <a href="#filtroCodigoSegurancaCartao">filtroCodigoSegurancaCartao</a>
+                            </li>
+                            <li>
+                                <a href="#filtroCPF">filtroCPF</a>
+                            </li>
+                            <li>
+                                <a href="#filtroNumeroCartao">filtroNumeroCartao</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#validadorBoleto">validadorBoleto</a>
+                            </li>
+                            <li>
+                                <a href="#validadorCartao">validadorCartao</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>, route: <a href="https://angular.io/api/router/ActivatedRoute" target="_blank">ActivatedRoute</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/metodo-pagamento/metodo-pagamento.component.ts:19</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>route</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/ActivatedRoute" target="_blank" >ActivatedRoute</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="filtroCEP"></a>
+                    <span class="name">
+                        <b>
+                            filtroCEP
+                        </b>
+                        <a href="#filtroCEP"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>filtroCEP()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="72"
+                            class="link-to-prism">src/app/metodo-pagamento/metodo-pagamento.component.ts:72</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="filtroCodigoSegurancaCartao"></a>
+                    <span class="name">
+                        <b>
+                            filtroCodigoSegurancaCartao
+                        </b>
+                        <a href="#filtroCodigoSegurancaCartao"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>filtroCodigoSegurancaCartao()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="89"
+                            class="link-to-prism">src/app/metodo-pagamento/metodo-pagamento.component.ts:89</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="filtroCPF"></a>
+                    <span class="name">
+                        <b>
+                            filtroCPF
+                        </b>
+                        <a href="#filtroCPF"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>filtroCPF()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="78"
+                            class="link-to-prism">src/app/metodo-pagamento/metodo-pagamento.component.ts:78</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="filtroNumeroCartao"></a>
+                    <span class="name">
+                        <b>
+                            filtroNumeroCartao
+                        </b>
+                        <a href="#filtroNumeroCartao"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>filtroNumeroCartao()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="83"
+                            class="link-to-prism">src/app/metodo-pagamento/metodo-pagamento.component.ts:83</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="25"
+                            class="link-to-prism">src/app/metodo-pagamento/metodo-pagamento.component.ts:25</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="validadorBoleto"></a>
+                    <span class="name">
+                        <b>
+                            validadorBoleto
+                        </b>
+                        <a href="#validadorBoleto"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>validadorBoleto()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="29"
+                            class="link-to-prism">src/app/metodo-pagamento/metodo-pagamento.component.ts:29</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="validadorCartao"></a>
+                    <span class="name">
+                        <b>
+                            validadorCartao
+                        </b>
+                        <a href="#validadorCartao"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>validadorCartao()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="48"
+                            class="link-to-prism">src/app/metodo-pagamento/metodo-pagamento.component.ts:48</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="cep"></a>
+                        <span class="name">
+                            <b>
+                            cep</b>
+                            <a href="#cep"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/app/metodo-pagamento/metodo-pagamento.component.ts:14</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="cidade"></a>
+                        <span class="name">
+                            <b>
+                            cidade</b>
+                            <a href="#cidade"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/metodo-pagamento/metodo-pagamento.component.ts:13</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="codigoSegurancaCartao"></a>
+                        <span class="name">
+                            <b>
+                            codigoSegurancaCartao</b>
+                            <a href="#codigoSegurancaCartao"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/metodo-pagamento/metodo-pagamento.component.ts:18</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="cpf"></a>
+                        <span class="name">
+                            <b>
+                            cpf</b>
+                            <a href="#cpf"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/metodo-pagamento/metodo-pagamento.component.ts:17</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="endereco"></a>
+                        <span class="name">
+                            <b>
+                            endereco</b>
+                            <a href="#endereco"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="12" class="link-to-prism">src/app/metodo-pagamento/metodo-pagamento.component.ts:12</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="nomeCartao"></a>
+                        <span class="name">
+                            <b>
+                            nomeCartao</b>
+                            <a href="#nomeCartao"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/metodo-pagamento/metodo-pagamento.component.ts:15</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="numeroCartao"></a>
+                        <span class="name">
+                            <b>
+                            numeroCartao</b>
+                            <a href="#numeroCartao"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/metodo-pagamento/metodo-pagamento.component.ts:16</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="valorTotal"></a>
+                        <span class="name">
+                            <b>
+                            valorTotal</b>
+                            <a href="#valorTotal"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/metodo-pagamento/metodo-pagamento.component.ts:19</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { Router, ActivatedRoute } from &#x27;@angular/router&#x27;;
+import Swal from &#x27;sweetalert2&#x27;;
+
+@Component({
+  selector: &#x27;app-metodo-pagamento&#x27;,
+  templateUrl: &#x27;./metodo-pagamento.component.html&#x27;,
+  styleUrls: [&#x27;./metodo-pagamento.component.css&#x27;]
+})
+export class MetodoPagamentoComponent implements OnInit {
+
+  endereco: string
+  cidade: string
+  cep: string
+  nomeCartao: string
+  numeroCartao: string
+  cpf: string
+  codigoSegurancaCartao: string
+  valorTotal: number
+
+  constructor(
+    private router: Router,
+    private route: ActivatedRoute) { }
+
+  ngOnInit() {
+    window.scroll(0, 0)
+    this.valorTotal &#x3D; this.route.snapshot.params[&#x27;valorTotal&#x27;]}
+
+  validadorBoleto() {
+    if (this.endereco !&#x3D; null &amp;&amp; this.cidade !&#x3D; null &amp;&amp; this.cep !&#x3D; null) {
+      this.router.navigate([&#x27;/home&#x27;])
+      Swal.fire({
+        icon: &#x27;success&#x27;,
+        title: &#x27;Pronto!&#x27;,
+        text: &#x27;O boleto foi enviado no seu e-mail. Efetue o pagamento em até 3 dias úteis.&#x27;
+      })
+      localStorage.clear()
+
+    } else {
+      Swal.fire({
+        icon: &#x27;warning&#x27;,
+        title: &#x27;Atenção&#x27;,
+        text: &#x27;Formulário preenchido incorretamente.&#x27;
+      })
+    }
+  }
+
+  validadorCartao() {
+    if (this.endereco &#x3D;&#x3D; null || this.cidade &#x3D;&#x3D; null || this.cep &#x3D;&#x3D; null) {
+      Swal.fire({
+        icon: &#x27;warning&#x27;,
+        title: &#x27;Atenção&#x27;,
+        text: &#x27;Endereço incorreto.&#x27;
+      })
+    } else if (this.nomeCartao &#x3D;&#x3D; null || this.cpf &#x3D;&#x3D; null || this.numeroCartao &#x3D;&#x3D; null || this.codigoSegurancaCartao &#x3D;&#x3D; null) {
+      Swal.fire({
+        icon: &#x27;warning&#x27;,
+        title: &#x27;Atenção&#x27;,
+        text: &#x27;Dados do cartão estão incorretos.&#x27;
+      })
+    } else {
+      Swal.fire({
+        icon: &#x27;success&#x27;,
+        title: &#x27;Pronto!&#x27;,
+        text: &#x27;Muito obrigado! Aguarde o email com número do pedido e rastreio.&#x27;
+      })
+      this.router.navigate([&#x27;/home&#x27;])
+      localStorage.clear()
+    }
+  }
+
+  filtroCEP() {//Insere hífen e remove caracteres diferentes de digitos
+    this.cep &#x3D; this.cep.replace(/\D/g, &quot;&quot;)                 
+    this.cep &#x3D; this.cep.replace(/(\d{5})(\d)/, &quot;$1-$2&quot;)    
+    return this.cep
+  }
+
+  filtroCPF() {//Tira caracteres que não são dígitos
+    this.cpf &#x3D; this.cpf.replace(/\D/g, &quot;&quot;)                 
+    this.cpf &#x3D; this.cpf.replace(/(\d{3})(\d{3})(\d{3})(\d)/, &quot;$1.$2.$3-$4&quot;)
+    return this.cpf
+  }
+  filtroNumeroCartao() {//Formata o número do cartão
+    this.numeroCartao &#x3D; this.numeroCartao.replace(/\D/g, &quot;&quot;)
+    this.numeroCartao &#x3D; this.numeroCartao.replace(/(\d{4})(\d{4})(\d{4})(\d)/, &quot;$1 $2 $3 $4&quot;)
+    return this.numeroCartao
+  }
+
+  filtroCodigoSegurancaCartao() {//Tira caracteres que não são dígitos
+    this.codigoSegurancaCartao &#x3D; this.codigoSegurancaCartao.replace(/\D/g, &quot;&quot;)  
+    return this.codigoSegurancaCartao
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;container&quot;&gt;
+
+    &lt;h2 class&#x3D;&quot;Kinan h2 text-center mt-3 mb-3&quot;&gt;Método de Pagamento&lt;/h2&gt;
+
+    &lt;h1 id&#x3D;&quot;valorTotal&quot; class&#x3D;&quot;text-center&quot;&gt;R$ {{valorTotal}}&lt;/h1&gt;
+    &lt;div class&#x3D;&quot;row d-flex justify-content-center mt-5 mb-5 ml-2&quot;&gt;
+        &lt;div class&#x3D;&quot;col-md-6&quot;&gt;
+            &lt;nav class&#x3D;&quot;mb-3&quot;&gt;
+                &lt;div class&#x3D;&quot;nav nav-tabs d-flex justify-content-center&quot; id&#x3D;&quot;nav-tab&quot; role&#x3D;&quot;tablist&quot;&gt;
+                    &lt;!--Referência: https://getbootstrap.com/docs/5.0/components/navs-tabs/--&gt;
+                    &lt;a class&#x3D;&quot;nav-item nav-link active text-secundary&quot; id&#x3D;&quot;boleto-tab&quot; data-toggle&#x3D;&quot;tab&quot; href&#x3D;&quot;#boleto&quot;
+                        role&#x3D;&quot;tab&quot; aria-controls&#x3D;&quot;nav-boleto&quot; aria-selected&#x3D;&quot;true&quot;&gt;&lt;b&gt;Boleto&lt;/b&gt;&lt;/a&gt;
+                    &lt;a class&#x3D;&quot;nav-item nav-link text-secundary&quot; id&#x3D;&quot;cartao-tab&quot; data-toggle&#x3D;&quot;tab&quot; href&#x3D;&quot;#cartao&quot;
+                        role&#x3D;&quot;tab&quot; aria-controls&#x3D;&quot;nav-cartao&quot; aria-selected&#x3D;&quot;false&quot;&gt;&lt;b&gt;Cartão&lt;/b&gt;&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/nav&gt;
+            &lt;div class&#x3D;&quot;tab-content&quot; id&#x3D;&quot;nav-tabContent&quot;&gt;
+                &lt;div class&#x3D;&quot;tab-pane fade show active&quot; id&#x3D;&quot;boleto&quot; role&#x3D;&quot;tabpanel&quot; aria-labelledby&#x3D;&quot;boleto-tab&quot;&gt;
+                    &lt;p class&#x3D;&quot;text-center&quot;&gt;Os boletos serão enviados via e-mail e devem ser pagos em até 3 dias úteis.
+                        Caso
+                        a data de vencimento do boleto cair em feriado ou fim de semana, o pagamento poderá ser
+                        realizado no próximo dia útil.
+                    &lt;/p&gt;
+                    &lt;div class&#x3D;&quot;d-flex justify-content-center&quot;&gt;
+                        &lt;a class&#x3D;&quot;btn btn-cancelar mr-5&quot; routerLink&#x3D;&quot;/carrinho&quot;&gt;CANCELAR&lt;/a&gt;
+                        &lt;a class&#x3D;&quot;btn btn-pagar&quot; (click)&#x3D;&quot;validadorBoleto()&quot;&gt;EMITIR BOLETO&lt;/a&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class&#x3D;&quot;tab-pane fade&quot; id&#x3D;&quot;cartao&quot; role&#x3D;&quot;tabpanel&quot; aria-labelledby&#x3D;&quot;cartao-tab&quot;&gt;
+                    &lt;div class&#x3D;&quot;container form-group&quot;&gt;
+                        &lt;div class&#x3D;&quot;form-row mb-3&quot;&gt;
+                            &lt;div class&#x3D;&quot;col-md-7&quot;&gt;
+                                &lt;label&gt;Nome do titular do cartão:&lt;/label&gt;
+                                &lt;input [(ngModel)]&#x3D;&quot;nomeCartao&quot; id&#x3D;&quot;nomeCartao&quot; type&#x3D;&quot;text&quot; class&#x3D;&quot;form-control&quot;&gt;
+                            &lt;/div&gt;
+                            &lt;div class&#x3D;&quot;col-md-5&quot;&gt;
+                                &lt;label&gt;Número de CPF do titular:&lt;/label&gt;
+                                &lt;input [(ngModel)]&#x3D;&quot;cpf&quot; id&#x3D;&quot;cpf&quot; placeholder&#x3D;&quot;XXX.XXX.XXX-XX&quot; type&#x3D;&quot;text&quot;
+                                    class&#x3D;&quot;form-control&quot; maxlength&#x3D;&quot;14&quot; (keyup)&#x3D;&quot;filtroCPF()&quot;&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class&#x3D;&quot;form-row mb-3&quot;&gt;
+                            &lt;div class&#x3D;&quot;col-md-12&quot;&gt;
+                                &lt;label&gt;Número do Cartão:&lt;/label&gt;
+                                &lt;input [(ngModel)]&#x3D;&quot;numeroCartao&quot; id&#x3D;&quot;numeroCartao&quot; placeholder&#x3D;&quot;XXXX XXXX XXXX XXXX&quot;
+                                    type&#x3D;&quot;text&quot; class&#x3D;&quot;form-control&quot; maxlength&#x3D;&quot;19&quot; (keyup)&#x3D;&quot;filtroNumeroCartao()&quot;&gt;
+                            &lt;/div&gt;
+
+                        &lt;/div&gt;
+                        &lt;div class&#x3D;&quot;form-row mb-3&quot;&gt;
+                            &lt;div class&#x3D;&quot;col-md-4&quot;&gt;
+                                &lt;label&gt;Válido até o mês&lt;/label&gt;
+                                &lt;select class&#x3D;&quot;form-control&quot;&gt;
+                                    &lt;option value&#x3D;&quot;1&quot;&gt;Janeiro&lt;/option&gt;
+                                    &lt;option value&#x3D;&quot;2&quot;&gt;Fevereiro&lt;/option&gt;
+                                    &lt;option value&#x3D;&quot;3&quot;&gt;Março&lt;/option&gt;
+                                    &lt;option value&#x3D;&quot;4&quot;&gt;Abril&lt;/option&gt;
+                                    &lt;option value&#x3D;&quot;5&quot;&gt;Maio&lt;/option&gt;
+                                    &lt;option value&#x3D;&quot;6&quot;&gt;Junho&lt;/option&gt;
+                                    &lt;option value&#x3D;&quot;7&quot;&gt;Julho&lt;/option&gt;
+                                    &lt;option value&#x3D;&quot;8&quot;&gt;Agosto&lt;/option&gt;
+                                    &lt;option value&#x3D;&quot;9&quot;&gt;Setembro&lt;/option&gt;
+                                    &lt;option value&#x3D;&quot;10&quot;&gt;Outubro&lt;/option&gt;
+                                    &lt;option value&#x3D;&quot;11&quot;&gt;Novembro&lt;/option&gt;
+                                    &lt;option value&#x3D;&quot;12&quot;&gt;Dezembro&lt;/option&gt;
+                                &lt;/select&gt;
+                            &lt;/div&gt;
+                            &lt;div class&#x3D;&quot;col-md-4&quot;&gt;
+                                &lt;label&gt;Válido até o ano:&lt;/label&gt;
+                                &lt;select class&#x3D;&quot;form-control&quot;&gt;
+                                    &lt;option value&#x3D;&quot;2021&quot;&gt;2021&lt;/option&gt;
+                                    &lt;option value&#x3D;&quot;2022&quot;&gt;2022&lt;/option&gt;
+                                    &lt;option value&#x3D;&quot;2023&quot;&gt;2023&lt;/option&gt;
+                                    &lt;option value&#x3D;&quot;2024&quot;&gt;2024&lt;/option&gt;
+                                    &lt;option value&#x3D;&quot;2025&quot;&gt;2025&lt;/option&gt;
+                                    &lt;option value&#x3D;&quot;2026&quot;&gt;2026&lt;/option&gt;
+                                    &lt;option value&#x3D;&quot;2027&quot;&gt;2027&lt;/option&gt;
+                                    &lt;option value&#x3D;&quot;2028&quot;&gt;2028&lt;/option&gt;
+                                &lt;/select&gt;
+                            &lt;/div&gt;
+                            &lt;div class&#x3D;&quot;col-md-4&quot;&gt;
+                                &lt;label&gt;CVV:&lt;/label&gt;
+                                &lt;input [(ngModel)]&#x3D;&quot;codigoSegurancaCartao&quot; id&#x3D;&quot;codigoSegurancaCartao&quot; placeholder&#x3D;&quot;XXX&quot;
+                                    type&#x3D;&quot;text&quot; class&#x3D;&quot;form-control&quot; maxlength&#x3D;&quot;4&quot;
+                                    (keyup)&#x3D;&quot;filtroCodigoSegurancaCartao()&quot;&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class&#x3D;&quot;form-row mb-3&quot;&gt;
+                            &lt;div class&#x3D;&quot;col-md-12&quot;&gt;
+                                &lt;label&gt;Parcelas:&lt;/label&gt;
+                                &lt;select class&#x3D;&quot;form-control&quot;&gt;
+                                    &lt;option value&#x3D;&quot;1&quot;&gt;À vista&lt;/option&gt;
+                                    &lt;option value&#x3D;&quot;2&quot;&gt;Parcelado em 2x sem juros&lt;/option&gt;
+                                    &lt;option value&#x3D;&quot;2&quot;&gt;Parcelado em 3x sem juros&lt;/option&gt;
+                                    &lt;option value&#x3D;&quot;2&quot;&gt;Parcelado em 4x sem juros&lt;/option&gt;
+                                    &lt;option value&#x3D;&quot;2&quot;&gt;Parcelado em 5x sem juros&lt;/option&gt;
+                                    &lt;option value&#x3D;&quot;2&quot;&gt;Parcelado em 6x sem juros&lt;/option&gt;
+                                    &lt;option value&#x3D;&quot;2&quot;&gt;Parcelado em 7x sem juros&lt;/option&gt;
+                                    &lt;option value&#x3D;&quot;2&quot;&gt;Parcelado em 8x sem juros&lt;/option&gt;
+                                &lt;/select&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class&#x3D;&quot;d-flex justify-content-center&quot;&gt;
+                            &lt;a class&#x3D;&quot;btn btn-cancelar mr-5&quot; routerLink&#x3D;&quot;/carrinho&quot;&gt;CANCELAR&lt;/a&gt;
+                            &lt;a class&#x3D;&quot;btn btn-pagar&quot; (click)&#x3D;&quot;validadorCartao()&quot;&gt;PAGAR&lt;/a&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;col-md-6&quot;&gt;
+            &lt;label&gt;Endereço para Entrega:&lt;/label&gt;
+            &lt;input [(ngModel)]&#x3D;&quot;endereco&quot; id&#x3D;&quot;endereco&quot; type&#x3D;&quot;text&quot; class&#x3D;&quot;form-control&quot;&gt;
+            &lt;div class&#x3D;&quot;row form-row mb-3&quot;&gt;
+                &lt;div class&#x3D;&quot;col-md-6&quot;&gt;
+                    &lt;label&gt;Cidade :&lt;/label&gt;
+                    &lt;input [(ngModel)]&#x3D;&quot;cidade&quot; id&#x3D;&quot;cidade&quot; type&#x3D;&quot;text&quot; class&#x3D;&quot;form-control&quot;&gt;
+                &lt;/div&gt;
+                &lt;div class&#x3D;&quot;col-md-&quot;&gt;
+                    &lt;label&gt;Estado :&lt;/label&gt;
+                    &lt;select type&#x3D;&quot;text&quot; class&#x3D;&quot;form-control&quot;&gt;
+                        &lt;option value&#x3D;&quot;AC&quot;&gt;AC&lt;/option&gt;
+                        &lt;option value&#x3D;&quot;AL&quot;&gt;AL&lt;/option&gt;
+                        &lt;option value&#x3D;&quot;AM&quot;&gt;AM&lt;/option&gt;
+                        &lt;option value&#x3D;&quot;AP&quot;&gt;AP&lt;/option&gt;
+                        &lt;option value&#x3D;&quot;BA&quot;&gt;BA&lt;/option&gt;
+                        &lt;option value&#x3D;&quot;CE&quot;&gt;CE&lt;/option&gt;
+                        &lt;option value&#x3D;&quot;DF&quot;&gt;DF&lt;/option&gt;
+                        &lt;option value&#x3D;&quot;ES&quot;&gt;ES&lt;/option&gt;
+                        &lt;option value&#x3D;&quot;GO&quot;&gt;GO&lt;/option&gt;
+                        &lt;option value&#x3D;&quot;MA&quot;&gt;MA&lt;/option&gt;
+                        &lt;option value&#x3D;&quot;MG&quot;&gt;MG&lt;/option&gt;
+                        &lt;option value&#x3D;&quot;MS&quot;&gt;MS&lt;/option&gt;
+                        &lt;option value&#x3D;&quot;MT&quot;&gt;MT&lt;/option&gt;
+                        &lt;option value&#x3D;&quot;PA&quot;&gt;PA&lt;/option&gt;
+                        &lt;option value&#x3D;&quot;PB&quot;&gt;PB&lt;/option&gt;
+                        &lt;option value&#x3D;&quot;PE&quot;&gt;PE&lt;/option&gt;
+                        &lt;option value&#x3D;&quot;PI&quot;&gt;PI&lt;/option&gt;
+                        &lt;option value&#x3D;&quot;PR&quot;&gt;PR&lt;/option&gt;
+                        &lt;option value&#x3D;&quot;RJ&quot;&gt;RJ&lt;/option&gt;
+                        &lt;option value&#x3D;&quot;RN&quot;&gt;RN&lt;/option&gt;
+                        &lt;option value&#x3D;&quot;RO&quot;&gt;RO&lt;/option&gt;
+                        &lt;option value&#x3D;&quot;RR&quot;&gt;RR&lt;/option&gt;
+                        &lt;option value&#x3D;&quot;RS&quot;&gt;RS&lt;/option&gt;
+                        &lt;option value&#x3D;&quot;SC&quot;&gt;SC&lt;/option&gt;
+                        &lt;option value&#x3D;&quot;SE&quot;&gt;SE&lt;/option&gt;
+                        &lt;option value&#x3D;&quot;SP&quot;&gt;SP&lt;/option&gt;
+                        &lt;option value&#x3D;&quot;TO&quot;&gt;TO&lt;/option&gt;
+                    &lt;/select&gt;
+                &lt;/div&gt;
+                &lt;div class&#x3D;&quot;col-md-4&quot;&gt;
+                    &lt;label&gt;CEP&lt;/label&gt;
+                    &lt;input [(ngModel)]&#x3D;&quot;cep&quot; id&#x3D;&quot;cep&quot; placeholder&#x3D;&quot;XXXXX-XXX&quot; type&#x3D;&quot;text&quot; maxlength&#x3D;&quot;9&quot;
+                        class&#x3D;&quot;form-control&quot; (keyup)&#x3D;&quot;filtroCEP()&quot;&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./metodo-pagamento.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">@font-face {
+    font-family: &quot;Kinan&quot;;
+    src: url(../../assets/fontes/kinan/Kinan.ttf)
+  }
+
+  @font-face {
+    font-family: &quot;caramella&quot;;
+    src: url(../../assets/fontes/caramella/Caramella_Regular.ttf)
+  }
+
+  h2{
+   color: black;
+   font-size: 40pt;
+   font-family: &quot;caramella&quot;;
+  }
+  
+  #valorTotal{
+   color: black;
+   font-size: 70px;
+   font-family: &quot;caramella&quot;;
+  }
+  .nav-link{
+    color: #1c372c;
+    font-size: 25px;
+    font-family: &quot;caramella&quot;;
+  }
+  .btn-pagar{
+    border-color: green;
+    color: green;
+    background-color: white;
+    margin-bottom: 30px;
+    font-family: &quot;caramella&quot;;
+  }
+  
+  .btn-pagar:hover{
+    color: white;
+    background-color: green;
+    margin-bottom: 30px;
+    font-family: &quot;caramella&quot;;
+  }
+  
+  .btn-cancelar{
+    border-color: red;
+    color: red;
+    background-color: white;
+    margin-bottom: 30px;
+    font-family: &quot;caramella&quot;;
+  }
+
+  .btn-cancelar:hover{
+    color: white;
+    background-color: red;
+    margin-bottom: 30px;
+    font-family: &quot;caramella&quot;;
+  }</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="container">    <h2 class="Kinan h2 text-center mt-3 mb-3">Método de Pagamento</h2>    <h1 id="valorTotal" class="text-center">R$ {{valorTotal}}</h1>    <div class="row d-flex justify-content-center mt-5 mb-5 ml-2">        <div class="col-md-6">            <nav class="mb-3">                <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">                    <!--Referência: https://getbootstrap.com/docs/5.0/components/navs-tabs/-->                    <a class="nav-item nav-link active text-secundary" id="boleto-tab" data-toggle="tab" href="#boleto"                        role="tab" aria-controls="nav-boleto" aria-selected="true"><b>Boleto</b></a>                    <a class="nav-item nav-link text-secundary" id="cartao-tab" data-toggle="tab" href="#cartao"                        role="tab" aria-controls="nav-cartao" aria-selected="false"><b>Cartão</b></a>                </div>            </nav>            <div class="tab-content" id="nav-tabContent">                <div class="tab-pane fade show active" id="boleto" role="tabpanel" aria-labelledby="boleto-tab">                    <p class="text-center">Os boletos serão enviados via e-mail e devem ser pagos em até 3 dias úteis.                        Caso                        a data de vencimento do boleto cair em feriado ou fim de semana, o pagamento poderá ser                        realizado no próximo dia útil.                    </p>                    <div class="d-flex justify-content-center">                        <a class="btn btn-cancelar mr-5" routerLink="/carrinho">CANCELAR</a>                        <a class="btn btn-pagar" (click)="validadorBoleto()">EMITIR BOLETO</a>                    </div>                </div>                <div class="tab-pane fade" id="cartao" role="tabpanel" aria-labelledby="cartao-tab">                    <div class="container form-group">                        <div class="form-row mb-3">                            <div class="col-md-7">                                <label>Nome do titular do cartão:</label>                                <input [(ngModel)]="nomeCartao" id="nomeCartao" type="text" class="form-control">                            </div>                            <div class="col-md-5">                                <label>Número de CPF do titular:</label>                                <input [(ngModel)]="cpf" id="cpf" placeholder="XXX.XXX.XXX-XX" type="text"                                    class="form-control" maxlength="14" (keyup)="filtroCPF()">                            </div>                        </div>                        <div class="form-row mb-3">                            <div class="col-md-12">                                <label>Número do Cartão:</label>                                <input [(ngModel)]="numeroCartao" id="numeroCartao" placeholder="XXXX XXXX XXXX XXXX"                                    type="text" class="form-control" maxlength="19" (keyup)="filtroNumeroCartao()">                            </div>                        </div>                        <div class="form-row mb-3">                            <div class="col-md-4">                                <label>Válido até o mês</label>                                <select class="form-control">                                    <option value="1">Janeiro</option>                                    <option value="2">Fevereiro</option>                                    <option value="3">Março</option>                                    <option value="4">Abril</option>                                    <option value="5">Maio</option>                                    <option value="6">Junho</option>                                    <option value="7">Julho</option>                                    <option value="8">Agosto</option>                                    <option value="9">Setembro</option>                                    <option value="10">Outubro</option>                                    <option value="11">Novembro</option>                                    <option value="12">Dezembro</option>                                </select>                            </div>                            <div class="col-md-4">                                <label>Válido até o ano:</label>                                <select class="form-control">                                    <option value="2021">2021</option>                                    <option value="2022">2022</option>                                    <option value="2023">2023</option>                                    <option value="2024">2024</option>                                    <option value="2025">2025</option>                                    <option value="2026">2026</option>                                    <option value="2027">2027</option>                                    <option value="2028">2028</option>                                </select>                            </div>                            <div class="col-md-4">                                <label>CVV:</label>                                <input [(ngModel)]="codigoSegurancaCartao" id="codigoSegurancaCartao" placeholder="XXX"                                    type="text" class="form-control" maxlength="4"                                    (keyup)="filtroCodigoSegurancaCartao()">                            </div>                        </div>                        <div class="form-row mb-3">                            <div class="col-md-12">                                <label>Parcelas:</label>                                <select class="form-control">                                    <option value="1">À vista</option>                                    <option value="2">Parcelado em 2x sem juros</option>                                    <option value="2">Parcelado em 3x sem juros</option>                                    <option value="2">Parcelado em 4x sem juros</option>                                    <option value="2">Parcelado em 5x sem juros</option>                                    <option value="2">Parcelado em 6x sem juros</option>                                    <option value="2">Parcelado em 7x sem juros</option>                                    <option value="2">Parcelado em 8x sem juros</option>                                </select>                            </div>                        </div>                        <div class="d-flex justify-content-center">                            <a class="btn btn-cancelar mr-5" routerLink="/carrinho">CANCELAR</a>                            <a class="btn btn-pagar" (click)="validadorCartao()">PAGAR</a>                        </div>                    </div>                </div>            </div>        </div>        <div class="col-md-6">            <label>Endereço para Entrega:</label>            <input [(ngModel)]="endereco" id="endereco" type="text" class="form-control">            <div class="row form-row mb-3">                <div class="col-md-6">                    <label>Cidade :</label>                    <input [(ngModel)]="cidade" id="cidade" type="text" class="form-control">                </div>                <div class="col-md-">                    <label>Estado :</label>                    <select type="text" class="form-control">                        <option value="AC">AC</option>                        <option value="AL">AL</option>                        <option value="AM">AM</option>                        <option value="AP">AP</option>                        <option value="BA">BA</option>                        <option value="CE">CE</option>                        <option value="DF">DF</option>                        <option value="ES">ES</option>                        <option value="GO">GO</option>                        <option value="MA">MA</option>                        <option value="MG">MG</option>                        <option value="MS">MS</option>                        <option value="MT">MT</option>                        <option value="PA">PA</option>                        <option value="PB">PB</option>                        <option value="PE">PE</option>                        <option value="PI">PI</option>                        <option value="PR">PR</option>                        <option value="RJ">RJ</option>                        <option value="RN">RN</option>                        <option value="RO">RO</option>                        <option value="RR">RR</option>                        <option value="RS">RS</option>                        <option value="SC">SC</option>                        <option value="SE">SE</option>                        <option value="SP">SP</option>                        <option value="TO">TO</option>                    </select>                </div>                <div class="col-md-4">                    <label>CEP</label>                    <input [(ngModel)]="cep" id="cep" placeholder="XXXXX-XXX" type="text" maxlength="9"                        class="form-control" (keyup)="filtroCEP()">                </div>            </div>        </div>    </div></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'BuscarComponent', 'selector': 'app-buscar'},{'name': 'CadastrarComponent', 'selector': 'app-cadastrar'},{'name': 'CategoriaComponent', 'selector': 'app-categoria'},{'name': 'DesignerComponent', 'selector': 'app-designer'},{'name': 'EntrarComponent', 'selector': 'app-entrar'},{'name': 'HomeComponent', 'selector': 'app-home'},{'name': 'MenuComponent', 'selector': 'app-menu'},{'name': 'MetodoPagamentoComponent', 'selector': 'app-metodo-pagamento'},{'name': 'PedidoComponent', 'selector': 'app-pedido'},{'name': 'ProdutoComponent', 'selector': 'app-produto'},{'name': 'ProdutoDeleteComponent', 'selector': 'app-produto-delete'},{'name': 'ProdutoEditComponent', 'selector': 'app-produto-edit'},{'name': 'RodapeComponent', 'selector': 'app-rodape'},{'name': 'SobreNosComponent', 'selector': 'app-sobre-nos'},{'name': 'UserEditComponent', 'selector': 'app-user-edit'},{'name': 'VerProdutoComponent', 'selector': 'app-ver-produto'},{'name': 'VitrineComponent', 'selector': 'app-vitrine'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'MetodoPagamentoComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'MetodoPagamentoComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,1475 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>hello-world documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">hello-world documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>VerProdutoComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/ver-produto/ver-produto.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-ver-produto</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./ver-produto.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./ver-produto.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#cor">cor</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#estoque">estoque</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#foto">foto</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#id">id</a>
+                            </li>
+                            <li>
+                                <a href="#idUser">idUser</a>
+                            </li>
+                            <li>
+                                <a href="#modelo">modelo</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#nome">nome</a>
+                            </li>
+                            <li>
+                                <a href="#pedido">pedido</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#preco">preco</a>
+                            </li>
+                            <li>
+                                <a href="#quantidade">quantidade</a>
+                            </li>
+                            <li>
+                                <a href="#subTotal">subTotal</a>
+                            </li>
+                            <li>
+                                <a href="#tamanho">tamanho</a>
+                            </li>
+                            <li>
+                                <a href="#tema">tema</a>
+                            </li>
+                            <li>
+                                <a href="#user">user</a>
+                            </li>
+                            <li>
+                                <a href="#verProduto">verProduto</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#addPedido">addPedido</a>
+                            </li>
+                            <li>
+                                <a href="#calculaSubTotal">calculaSubTotal</a>
+                            </li>
+                            <li>
+                                <a href="#findProdById">findProdById</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#processo">processo</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>, aRoute: <a href="https://angular.io/api/router/ActivatedRoute" target="_blank">ActivatedRoute</a>, verProdutoService: <a href="../injectables/VerProdutoService.html">VerProdutoService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/ver-produto/ver-produto.component.ts:32</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>aRoute</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/ActivatedRoute" target="_blank" >ActivatedRoute</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>verProdutoService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/VerProdutoService.html" target="_self" >VerProdutoService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="addPedido"></a>
+                    <span class="name">
+                        <b>
+                            addPedido
+                        </b>
+                        <a href="#addPedido"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>addPedido()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="72"
+                            class="link-to-prism">src/app/ver-produto/ver-produto.component.ts:72</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="calculaSubTotal"></a>
+                    <span class="name">
+                        <b>
+                            calculaSubTotal
+                        </b>
+                        <a href="#calculaSubTotal"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>calculaSubTotal()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="67"
+                            class="link-to-prism">src/app/ver-produto/ver-produto.component.ts:67</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findProdById"></a>
+                    <span class="name">
+                        <b>
+                            findProdById
+                        </b>
+                        <a href="#findProdById"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>findProdById(id: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="49"
+                            class="link-to-prism">src/app/ver-produto/ver-produto.component.ts:49</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>id</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="39"
+                            class="link-to-prism">src/app/ver-produto/ver-produto.component.ts:39</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="processo"></a>
+                    <span class="name">
+                        <b>
+                            processo
+                        </b>
+                        <a href="#processo"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>processo(valor: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="56"
+                            class="link-to-prism">src/app/ver-produto/ver-produto.component.ts:56</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>valor</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="cor"></a>
+                        <span class="name">
+                            <b>
+                            cor</b>
+                            <a href="#cor"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="23" class="link-to-prism">src/app/ver-produto/ver-produto.component.ts:23</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="estoque"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            estoque</b>
+                            <a href="#estoque"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/app/ver-produto/ver-produto.component.ts:31</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="foto"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            foto</b>
+                            <a href="#foto"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/app/ver-produto/ver-produto.component.ts:30</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="id"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            id</b>
+                            <a href="#id"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="28" class="link-to-prism">src/app/ver-produto/ver-produto.component.ts:28</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="idUser"></a>
+                        <span class="name">
+                            <b>
+                            idUser</b>
+                            <a href="#idUser"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>environment.id</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="22" class="link-to-prism">src/app/ver-produto/ver-produto.component.ts:22</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="modelo"></a>
+                        <span class="name">
+                            <b>
+                            modelo</b>
+                            <a href="#modelo"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="26" class="link-to-prism">src/app/ver-produto/ver-produto.component.ts:26</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="nome"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            nome</b>
+                            <a href="#nome"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="29" class="link-to-prism">src/app/ver-produto/ver-produto.component.ts:29</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="pedido"></a>
+                        <span class="name">
+                            <b>
+                            pedido</b>
+                            <a href="#pedido"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>VerProduto[]</code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/ver-produto/ver-produto.component.ts:18</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="preco"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            preco</b>
+                            <a href="#preco"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/ver-produto/ver-produto.component.ts:32</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="quantidade"></a>
+                        <span class="name">
+                            <b>
+                            quantidade</b>
+                            <a href="#quantidade"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/ver-produto/ver-produto.component.ts:19</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="subTotal"></a>
+                        <span class="name">
+                            <b>
+                            subTotal</b>
+                            <a href="#subTotal"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="20" class="link-to-prism">src/app/ver-produto/ver-produto.component.ts:20</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="tamanho"></a>
+                        <span class="name">
+                            <b>
+                            tamanho</b>
+                            <a href="#tamanho"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/app/ver-produto/ver-produto.component.ts:25</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="tema"></a>
+                        <span class="name">
+                            <b>
+                            tema</b>
+                            <a href="#tema"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="24" class="link-to-prism">src/app/ver-produto/ver-produto.component.ts:24</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="user"></a>
+                        <span class="name">
+                            <b>
+                            user</b>
+                            <a href="#user"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../classes/User.html" target="_self" >User</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new User()</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="21" class="link-to-prism">src/app/ver-produto/ver-produto.component.ts:21</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="verProduto"></a>
+                        <span class="name">
+                            <b>
+                            verProduto</b>
+                            <a href="#verProduto"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../classes/VerProduto.html" target="_self" >VerProduto</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new VerProduto()</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/ver-produto/ver-produto.component.ts:17</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { ActivatedRoute, Router } from &#x27;@angular/router&#x27;;
+import { VerProduto } from &#x27;../model/VerProduto&#x27;;
+import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { environment } from &#x27;src/environments/environment.prod&#x27;;
+import { User } from &#x27;../model/User&#x27;;
+import Swal from &#x27;sweetalert2&#x27;; //importado de https://sweetalert2.github.io/
+import { VerProdutoService } from &#x27;../service/ver-produto.service&#x27;;
+import { Categoria } from &#x27;../model/Categoria&#x27;;
+
+@Component({
+  selector: &#x27;app-ver-produto&#x27;,
+  templateUrl: &#x27;./ver-produto.component.html&#x27;,
+  styleUrls: [&#x27;./ver-produto.component.css&#x27;],
+})
+export class VerProdutoComponent implements OnInit {
+
+  verProduto: VerProduto &#x3D; new VerProduto()
+  pedido: VerProduto[]
+  quantidade: number
+  subTotal: number
+  user: User &#x3D; new User()
+  idUser &#x3D; environment.id
+  cor: string
+  tema: string
+  tamanho: string
+  modelo: string
+//ATÉ AQUI SOMA OK
+  public id: number
+  public nome: string
+  public foto: string
+  public estoque: number
+  public preco: number
+  //COM ESSES, MULTIPLICA OK
+  constructor(
+    private router: Router,
+    private aRoute: ActivatedRoute,
+    private verProdutoService: VerProdutoService) {}
+  
+  ngOnInit() {
+      window.scroll(0, 0);
+      let id &#x3D; this.aRoute.snapshot.params[&#x27;id&#x27;];
+      this.findProdById(id);
+      this.quantidade &#x3D; 1;//SOMA OK
+      this.subTotal &#x3D; this.verProduto.preco;
+      this.calculaSubTotal();//MULTIPLICA OK
+      console.log(&#x27;verproduto &#x27;, this.verProduto);//MULTIPLICA OK
+    }
+
+  findProdById(id: number) {
+    this.verProdutoService.getByIdProduto(id).subscribe((resp: VerProduto) &#x3D;&gt; {
+      this.verProduto &#x3D; resp
+      console.log(&#x27;verproduto &#x27;, this.verProduto);//MULTIPLICA OK
+    });
+  }
+
+  processo(valor: number) {
+    valor +&#x3D; this.quantidade;
+    if (valor &lt; 1) {
+      this.quantidade &#x3D; 1;
+    } else if (valor &gt;&#x3D; this.verProduto.estoque - 1) {
+      this.quantidade &#x3D; this.verProduto.estoque - 1;
+    } else {
+      this.quantidade &#x3D; valor;
+    }
+  }
+
+  calculaSubTotal() {
+    this.subTotal &#x3D; this.verProduto.preco * this.quantidade;
+    return this.subTotal;
+  }
+
+  addPedido() {
+    if (environment.token &#x3D;&#x3D; &quot;&quot;) {
+      Swal.fire({
+        icon: &#x27;error&#x27;,
+        title: &#x27;Putz!&#x27;,
+        text: &#x27;Faça login para comprar&#x27;,
+      });
+
+      this.router.navigate([&quot;/login&quot;])
+    } else {
+      this.calculaSubTotal()
+      this.pedido &#x3D; JSON.parse(localStorage.getItem(&#x27;pedido&#x27;) || &#x27;[]&#x27;)
+
+      this.pedido.push(
+        {
+          id: this.verProduto.id,
+          nome: this.verProduto.nome,
+          foto: this.verProduto.foto,
+          estoque: this.verProduto.estoque,
+          preco: this.verProduto.preco,
+          categoria: this.verProduto.categoria,
+          user: this.verProduto.user,
+          quantidade: this.quantidade,
+          subTotal: this.subTotal,
+          cor: this.cor,
+          tema: this.tema,
+          tamanho: this.tamanho,
+          modelo: this.modelo
+        })
+      localStorage.setItem(&#x27;pedido&#x27;, JSON.stringify(this.pedido))
+      Swal.fire({
+        icon: &#x27;success&#x27;,
+        title: &#x27;Boa!&#x27;,
+        text: &#x27;Produto adicionado com sucesso!&#x27;
+      })
+
+      this.router.navigate([&#x27;/pedido&#x27;])
+    }
+  }
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;container-fluid justify-content-center&quot;&gt;
+  &lt;div class&#x3D;&quot;row d-flex justify-content-center&quot;&gt;
+    &lt;div class&#x3D;&quot;col-md-12&quot;&gt;
+      &lt;!-- &lt;h1 class&#x3D;&quot;text-center titulo font:Kinan&quot;&gt;Indie&lt;/h1&gt; --&gt;
+       &lt;h1 class&#x3D;&quot;text-center titulo&quot;&gt;Detalhes&lt;/h1&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!--FOTO DO PRODUTO--&gt;
+  &lt;div class&#x3D;&quot;row&quot;&gt;
+    &lt;div id&#x3D;&quot;grup&quot; class&#x3D;&quot;col-md-6 justify-content-center&quot;&gt;
+      &lt;a href&#x3D;&quot;&quot;&gt;
+        &lt;img src&#x3D;{{verProduto.foto}} alt&#x3D;&quot;Foto do Produto&quot; height&#x3D;&quot;700px&quot; /&gt;
+
+      &lt;!--&lt;img src&#x3D;&quot;https://static3.tcdn.com.br/img/img_prod/482157/180_camiseta_t_shirt_asas_off_white_7166_1_c7abb27e05a87d60b0737bb521ce3ba6.jpg&quot; alt&#x3D;&quot;Foto do Produto&quot; height&#x3D;&quot;800px&quot;&gt; --&gt;
+
+      &lt;!-- INICIO - ALTERAÇÃO PEGANDO DE PRODUTO: --&gt;
+      &lt;!--&lt;img src&#x3D;{{produto.foto}} alt&#x3D;&quot;Foto do Produto&quot; height&#x3D;&quot;800px&quot;/&gt;
+      &lt;!-- &lt;img src&#x3D;&quot;https://static3.tcdn.com.br/img/img_prod/482157/180_camiseta_t_shirt_asas_off_white_7166_1_c7abb27e05a87d60b0737bb521ce3ba6.jpg&quot; alt&#x3D;&quot;Foto do Produto&quot; height&#x3D;&quot;800px&quot;&gt; --&gt;
+      &lt;!-- FIM - ALTERAÇÃO PEGANDO DE PRODUTO: --&gt;
+
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+  &lt;div class&#x3D;&quot;col-md-6 justify-content-center&quot; id&#x3D;&quot;txt-grup&quot;&gt;
+    &lt;h2&gt;{{verProduto.nome}}&lt;/h2&gt;
+      &lt;!-- &lt;h2&gt;Woman&#x27;s Fly&lt;/h2&gt; --&gt;
+
+
+    &lt;!-- INICIO - ALTERAÇÃO PEGANDO DE PRODUTO:
+    &lt;div class&#x3D;&quot;col-5&quot; id&#x3D;&quot;txt-grup&quot;&gt;
+      &lt;h2&gt;{{produto.nome}}&lt;/h2&gt;
+      &lt;!-- FIM - ALTERAÇÃO PEGANDO DE PRODUTO: --&gt;
+    &lt;!-- &lt;h2&gt;Women Flying&lt;/h2&gt; --&gt;
+
+    &lt;h1&gt;R$ {{verProduto.preco.toFixed(2).replace(&#x27;.&#x27;, &#x27;,&#x27;)}}&lt;/h1&gt;
+    &lt;!-- &lt;h1&gt;{{produto.preco.toFixed(2).replace(&#x27;.&#x27;, &#x27;,&#x27;)}}&lt;/h1&gt; --&gt;
+    &lt;!-- &lt;h1&gt;R$ 79,90&lt;/h1&gt; --&gt;
+
+    &lt;div class&#x3D;&quot;y-productSkuSelection&quot;&gt;&lt;span class&#x3D;&quot;y-selectionDesc mr-2&quot;&gt;Selecione um tamanho:&lt;/span&gt;&lt;/div&gt;
+
+    &lt;div&gt;&lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;1254386558&quot; id&#x3D;&quot;953086992&quot; value&#x3D;&quot;PP&quot;&gt;
+      &lt;label for&#x3D;&quot;953086992&quot; class&#x3D;&quot;mr-2&quot;&gt;PP&lt;/label&gt;
+
+      &lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;1254386558&quot; id&#x3D;&quot;953086992&quot; value&#x3D;&quot;P&quot;&gt;
+      &lt;label for&#x3D;&quot;953086992&quot; class&#x3D;&quot;mr-2&quot;&gt;P&lt;/label&gt;
+
+      &lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;1254386558&quot; id&#x3D;&quot;1097046190&quot; value&#x3D;&quot;M&quot;&gt;
+      &lt;label for&#x3D;&quot;1097046190&quot; class&#x3D;&quot;mr-2&quot;&gt;M&lt;/label&gt;
+
+      &lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;1254386558&quot; id&#x3D;&quot;1290346762&quot; value&#x3D;&quot;G&quot;&gt;
+      &lt;label for&#x3D;&quot;1290346762&quot; class&#x3D;&quot;mr-2&quot;&gt;G&lt;/label&gt;
+
+      &lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;1254386558&quot; id&#x3D;&quot;1290346762&quot; value&#x3D;&quot;XG&quot;&gt;
+      &lt;label for&#x3D;&quot;1290346762&quot; class&#x3D;&quot;mr-2&quot;&gt;XG&lt;/label&gt;
+
+      &lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;1254386558&quot; id&#x3D;&quot;1290346762&quot; value&#x3D;&quot;XXG&quot;&gt;
+      &lt;label for&#x3D;&quot;1290346762&quot; class&#x3D;&quot;mr-2&quot;&gt;XXG&lt;/label&gt;
+    &lt;/div&gt;
+
+    &lt;div class&#x3D;&quot;row d-flex justify-content-center&quot;&gt;
+      &lt;div class&#x3D;&quot;ml-0&quot;&gt;
+        &lt;div class&#x3D;&quot;y-productSkuSelection justify-content-center&quot; id&#x3D;&quot;divCor&quot;&gt;
+          &lt;span class&#x3D;&quot;y-selectionDesc mr-6 justify-content-center&quot;&gt;Selecione uma cor:&lt;/span&gt;
+
+          &lt;div class&#x3D;&quot;nav-item dropdown&quot;&gt;
+            &lt;a class&#x3D;&quot;btn btn-with dropdown-toggle fs-14 dropdownbtn&quot; role&#x3D;&quot;button&quot; id&#x3D;&quot;dropdownMenuLink&quot;
+              data-toggle&#x3D;&quot;dropdown&quot; aria-haspopup&#x3D;&quot;true&quot; aria-expanded&#x3D;&quot;false&quot;&gt;
+              Cor
+            &lt;/a&gt;
+            &lt;div class&#x3D;&quot;dropdown-menu&quot; aria-labelledby&#x3D;&quot;dropdownMenuLink&quot;&gt;
+              &lt;a class&#x3D;&quot;dropdown-item&quot;&gt;Branco&lt;/a&gt;
+              &lt;a class&#x3D;&quot;dropdown-item&quot;&gt;Preto&lt;/a&gt;
+              &lt;a class&#x3D;&quot;dropdown-item&quot;&gt;Cinza&lt;/a&gt;
+              &lt;a class&#x3D;&quot;dropdown-item&quot;&gt;Vermelho&lt;/a&gt;
+              &lt;a class&#x3D;&quot;dropdown-item&quot;&gt;Rosa&lt;/a&gt;
+              &lt;a class&#x3D;&quot;dropdown-item&quot;&gt;Amarelo&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;row d-flex justify-content-center&quot;&gt;
+      &lt;div class&#x3D;&quot;col-ml-8&quot;&gt;
+        &lt;!--QUANTIDADE--&gt;
+        &lt;div id&#x3D;&quot;quantrow&quot; class&#x3D;&quot;row&quot;&gt;
+          &lt;div class&#x3D;&quot;col-ml-16&quot;&gt;
+            &lt;p&gt;Digite a quantidade desejada:&lt;/p&gt;
+          &lt;/div&gt;
+          &lt;div class&#x3D;&quot;col-ml-5&quot; id&#x3D;&quot;quantidade&quot;&gt;
+            &lt;!-- &lt;input type&#x3D;&quot;button&quot; id&#x3D;&quot;minus&quot; value&#x3D;&quot;-&quot; /&gt; --&gt;
+            &lt;!-- &lt;input type&#x3D;&quot;button&quot; id&#x3D;&quot;minus&quot; (click)&#x3D;&quot;processo(-1)&quot; (click)&#x3D;&quot;calculaSubTotal()&quot; (click)&#x3D;&quot;subtraiQuantidade()&quot; value&#x3D;&quot; -&quot; /&gt; --&gt;
+            &lt;input [(ngModel)]&#x3D;&quot;quantidade&quot; id&#x3D;&quot;quantidade&quot; name&#x3D;&quot;quantidade&quot; type&#x3D;&quot;number&quot; value&#x3D;&quot;&quot; min&#x3D;&quot;1&quot; (click)&#x3D;&quot;calculaSubTotal()&quot; class&#x3D;&quot;ml-3&quot;/&gt;
+            &lt;!-- &lt;input type&#x3D;&quot;button&quot; id&#x3D;&quot;plus&quot; value&#x3D;&quot;+&quot;&gt; --&gt;
+            &lt;!-- &lt;input type&#x3D;&quot;button&quot; id&#x3D;&quot;plus&quot; (click)&#x3D;&quot;processo(1)&quot; (click)&#x3D;&quot;calculaSubTotal()&quot; click&#x3D;&quot;adicionaQuantidade()&quot; value&#x3D;&quot;+ &quot;&gt; --&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;btn bb&quot;&gt;Adicionar ao pedido&lt;/button&gt;--&gt;
+    &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;btn bb w-50&quot; (click)&#x3D;&quot;addPedido()&quot;&gt;Adicionar ao pedido&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./ver-produto.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">
+@font-face {
+    font-family: &quot;Kinan&quot;;
+    src: url(../../assets/fontes/kinan/Kinan.ttf)
+  }
+
+  @font-face {
+    font-family: &quot;caramella&quot;;
+    src: url(../../assets/fontes/caramella/Caramella_Regular.ttf)
+  }
+  
+  #grup{
+      display: flex;
+      align-items: center;
+  }
+  
+  .titulo{
+    text-align: center;
+    color: #000000;
+    font-family: &quot;Kinan&quot;;
+    font-size: 80pt;
+    margin-bottom: 10px;
+  }
+  
+  #txt-grup{
+      flex-direction: column;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+  }
+  h1{
+  
+      font-size: 50pt;
+    
+  }
+  .bb{
+      margin: 20px;
+      padding: 10px;
+  }
+  .btn{
+      color: white;
+      background-color: #420366;
+      width: 90%;
+  }
+
+  h1{
+    color: #4F4F4F;
+    font-size: 70px;
+   }
+  
+  h2{
+    font-size: 50px;
+    color: #FF4500;
+   }
+  
+   #quantidade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius:0px;
+    max-width: 95px;
+    width: 50px;
+    height: 30px;
+    display: flex;
+    margin: 0px;
+    text-align: center;
+  }
+  #minus{
+    float:left;
+    background-color:#420366;
+    color: white;
+    font-size:18px;
+    font-weight: bold;
+    border: none;
+    margin: 0px;
+    width: 30px;
+    height: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  #plus{
+    float:right;
+    background-color:#420366;
+    color: white;
+    font-size:18px;
+    font-weight: bold;
+    border: none;
+    margin: 0px;
+    width: 30px;
+    height: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+   #quant{
+    background-color: white;
+    border: none;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    margin: 0px;
+  }
+  
+  #quantrow{
+    align-items: baseline;
+    margin-top: 20px;
+  }
+
+  #divCor{
+    align-content:space-between;
+  }
+  
+  img{
+    max-width: 1000px;
+    max-height: 1000px;
+  }
+  
+  #tamanho{
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  #button-addon2{
+    padding-right: 20px;
+  }
+  
+  /* 4 colunas lado a lado */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove espaços extras entre colunas */
+.row {margin: 0 -5px;}
+
+/* Limpa floats após as colunas*/
+.row:after {
+  content: &quot;&quot;;
+  display: table;
+  clear: both;
+}
+
+/* Estiliza os cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(119, 118, 118, 0.2); /* Adiciona efeito ao card */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    column-count: 1;
+  }
+}</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="container-fluid justify-content-center">  <div class="row d-flex justify-content-center">    <div class="col-md-12">      <!-- <h1 class="text-center titulo font:Kinan">Indie</h1> -->       <h1 class="text-center titulo">Detalhes</h1>    </div>  </div>  <!--FOTO DO PRODUTO-->  <div class="row">    <div id="grup" class="col-md-6 justify-content-center">      <a href="">        <img src={{verProduto.foto}} alt="Foto do Produto" height="700px" />      <!--<img src="https://static3.tcdn.com.br/img/img_prod/482157/180_camiseta_t_shirt_asas_off_white_7166_1_c7abb27e05a87d60b0737bb521ce3ba6.jpg" alt="Foto do Produto" height="800px"> -->      <!-- INICIO - ALTERAÇÃO PEGANDO DE PRODUTO: -->      <!--<img src={{produto.foto}} alt="Foto do Produto" height="800px"/>      <!-- <img src="https://static3.tcdn.com.br/img/img_prod/482157/180_camiseta_t_shirt_asas_off_white_7166_1_c7abb27e05a87d60b0737bb521ce3ba6.jpg" alt="Foto do Produto" height="800px"> -->      <!-- FIM - ALTERAÇÃO PEGANDO DE PRODUTO: -->    </a>  </div>  <div class="col-md-6 justify-content-center" id="txt-grup">    <h2>{{verProduto.nome}}</h2>      <!-- <h2>Woman\'s Fly</h2> -->    <!-- INICIO - ALTERAÇÃO PEGANDO DE PRODUTO:    <div class="col-5" id="txt-grup">      <h2>{{produto.nome}}</h2>      <!-- FIM - ALTERAÇÃO PEGANDO DE PRODUTO: -->    <!-- <h2>Women Flying</h2> -->    <h1>R$ {{verProduto.preco.toFixed(2).replace(\'.\', \',\')}}</h1>    <!-- <h1>{{produto.preco.toFixed(2).replace(\'.\', \',\')}}</h1> -->    <!-- <h1>R$ 79,90</h1> -->    <div class="y-productSkuSelection"><span class="y-selectionDesc mr-2">Selecione um tamanho:</span></div>    <div><input type="radio" name="1254386558" id="953086992" value="PP">      <label for="953086992" class="mr-2">PP</label>      <input type="radio" name="1254386558" id="953086992" value="P">      <label for="953086992" class="mr-2">P</label>      <input type="radio" name="1254386558" id="1097046190" value="M">      <label for="1097046190" class="mr-2">M</label>      <input type="radio" name="1254386558" id="1290346762" value="G">      <label for="1290346762" class="mr-2">G</label>      <input type="radio" name="1254386558" id="1290346762" value="XG">      <label for="1290346762" class="mr-2">XG</label>      <input type="radio" name="1254386558" id="1290346762" value="XXG">      <label for="1290346762" class="mr-2">XXG</label>    </div>    <div class="row d-flex justify-content-center">      <div class="ml-0">        <div class="y-productSkuSelection justify-content-center" id="divCor">          <span class="y-selectionDesc mr-6 justify-content-center">Selecione uma cor:</span>          <div class="nav-item dropdown">            <a class="btn btn-with dropdown-toggle fs-14 dropdownbtn" role="button" id="dropdownMenuLink"              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">              Cor            </a>            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">              <a class="dropdown-item">Branco</a>              <a class="dropdown-item">Preto</a>              <a class="dropdown-item">Cinza</a>              <a class="dropdown-item">Vermelho</a>              <a class="dropdown-item">Rosa</a>              <a class="dropdown-item">Amarelo</a>            </div>          </div>        </div>      </div>    </div>    <div class="row d-flex justify-content-center">      <div class="col-ml-8">        <!--QUANTIDADE-->        <div id="quantrow" class="row">          <div class="col-ml-16">            <p>Digite a quantidade desejada:</p>          </div>          <div class="col-ml-5" id="quantidade">            <!-- <input type="button" id="minus" value="-" /> -->            <!-- <input type="button" id="minus" (click)="processo(-1)" (click)="calculaSubTotal()" (click)="subtraiQuantidade()" value=" -" /> -->            <input [(ngModel)]="quantidade" id="quantidade" name="quantidade" type="number" value="" min="1" (click)="calculaSubTotal()" class="ml-3"/>            <!-- <input type="button" id="plus" value="+"> -->            <!-- <input type="button" id="plus" (click)="processo(1)" (click)="calculaSubTotal()" click="adicionaQuantidade()" value="+ "> -->          </div>        </div>      </div>    </div>    <!-- <button type="button" class="btn bb">Adicionar ao pedido</button>-->    <button type="button" class="btn bb w-50" (click)="addPedido()">Adicionar ao pedido</button>  </div></div></div></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'BuscarComponent', 'selector': 'app-buscar'},{'name': 'CadastrarComponent', 'selector': 'app-cadastrar'},{'name': 'CategoriaComponent', 'selector': 'app-categoria'},{'name': 'DesignerComponent', 'selector': 'app-designer'},{'name': 'EntrarComponent', 'selector': 'app-entrar'},{'name': 'HomeComponent', 'selector': 'app-home'},{'name': 'MenuComponent', 'selector': 'app-menu'},{'name': 'MetodoPagamentoComponent', 'selector': 'app-metodo-pagamento'},{'name': 'PedidoComponent', 'selector': 'app-pedido'},{'name': 'ProdutoComponent', 'selector': 'app-produto'},{'name': 'ProdutoDeleteComponent', 'selector': 'app-produto-delete'},{'name': 'ProdutoEditComponent', 'selector': 'app-produto-edit'},{'name': 'RodapeComponent', 'selector': 'app-rodape'},{'name': 'SobreNosComponent', 'selector': 'app-sobre-nos'},{'name': 'UserEditComponent', 'selector': 'app-user-edit'},{'name': 'VerProdutoComponent', 'selector': 'app-ver-produto'},{'name': 'VitrineComponent', 'selector': 'app-vitrine'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'VerProdutoComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'VerProdutoComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
